@@ -3,15 +3,16 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common AICP stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/colt.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/moto/shamu/overlay-lineage
 
-## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aicp_shamu
+# Device identifier. This must come after all inclusions
+PRODUCT_NAME := colt_shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
 
