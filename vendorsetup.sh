@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo nitrogen_shamu-userdebug
+add_lunch_combo colt_shamu-userdebug
