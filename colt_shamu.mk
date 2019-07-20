@@ -20,6 +20,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common ColtOS stuff.
 $(call inherit-product, vendor/colt/common.mk)
+$(call inherit-product, packages/apps/ColtApps/common.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
