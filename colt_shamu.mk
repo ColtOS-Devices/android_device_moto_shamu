@@ -44,3 +44,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="shamu-user 7.1.1 N6F27M 4299435 release-keys"
 
 BUILD_FINGERPRINT := google/shamu/shamu:7.1.1/N6F27M/4299435:user/release-keys
+
+# Maintainer Prop
+PRODUCT_PROPERTY_OVERRIDES += \
+ 	ro.colt.maintainer=Nitin1438
