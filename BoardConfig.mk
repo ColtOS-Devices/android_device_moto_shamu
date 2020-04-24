@@ -137,6 +137,9 @@ BOARD_USES_CUTBACK_IN_RILD := true
 BOARD_VENDOR_SEPOLICY_DIRS += device/moto/shamu/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
+# Build with new clang
+TARGET_KERNEL_NEW_GCC_COMPILE := true
+
 # Wi-Fi
 BOARD_WLAN_DEVICE           := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
