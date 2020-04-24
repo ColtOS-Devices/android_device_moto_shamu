@@ -114,8 +114,6 @@ BOARD_RAMDISK_OFFSET     := 0x02000000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 TARGET_KERNEL_CONFIG := shamu_defconfig
 TARGET_KERNEL_SOURCE := kernel/moto/shamu
-KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
-KERNEL_TOOLCHAIN := /home/nitin/colt/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
 
 # Manifests
 DEVICE_MANIFEST_FILE := device/moto/shamu/manifest.xml
