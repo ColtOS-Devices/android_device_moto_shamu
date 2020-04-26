@@ -138,7 +138,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += device/moto/shamu/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Build with new clang
-TARGET_KERNEL_NEW_GCC_COMPILE := true
+#TARGET_KERNEL_NEW_GCC_COMPILE := true
+#TARGET_KERNEL_CLANG_COMPILE := true
 
 # Wi-Fi
 BOARD_WLAN_DEVICE           := bcmdhd
