@@ -17,7 +17,7 @@
 TARGET_BOOT_ANIMATION_RES := 1440x2560
 
 # Inherit some common ColtOS stuff.
-$(call inherit-product, vendor/colt/config/common.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
